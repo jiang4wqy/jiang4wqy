@@ -88,7 +88,7 @@ AI 策略体检与优化引擎。提供 CLI、Web 工作台、REST API、MCP 工
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=jiang4wqy&amp;theme=tokyonight&amp;hide_border=true&amp;locale=zh_Hans" alt="Jiang GitHub Contribution Streak" />
+  <img src="https://streak-stats.demolab.com/?user=jiang4wqy&amp;theme=tokyonight&amp;hide_border=true&amp;locale=zh_Hans" alt="Jiang GitHub Contribution Streak" />
 </div>
 
 ## 🎮 贡献轨迹
