@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:6A11CB,50:7C3AED,100:06B6D4&amp;height=220&amp;section=header&amp;text=JIANG%20%2F%20AGENT%20SYSTEMS&amp;fontSize=42&amp;fontAlignY=35&amp;fontColor=FFFFFF&amp;animation=fadeIn&amp;desc=AI%20Agent%20Developer%20%7C%20Open-Source%20Builder&amp;descAlignY=56&amp;descAlign=50" alt="JIANG / AGENT SYSTEMS - AI Agent Developer and Open-Source Builder" />
+  <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/main/assets/agent-command-center.svg" alt="Jiang Agent Systems 动态指挥中心" />
 
   <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&amp;size=20&amp;duration=2800&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=AI%20Agent%20%E5%BC%80%E5%8F%91%E8%80%85;%E6%9E%84%E5%BB%BA%E5%8F%AF%E9%9D%A0%E7%9A%84%20Agent%20%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%AF%84%E6%B5%8B%E4%BD%93%E7%B3%BB;%E6%8C%81%E7%BB%AD%E5%8F%82%E4%B8%8E%E5%BC%80%E6%BA%90%E4%B8%8E%20Codex%20%E7%94%9F%E6%80%81%E5%BB%BA%E8%AE%BE" alt="AI Agent 开发者；构建可靠的 Agent 工作流与评测体系；持续参与开源与 Codex 生态建设" />
 
@@ -25,6 +25,10 @@ agent.role    = "AI Agent Developer"
 agent.focus   = ["Reliability", "Evaluation", "Developer Tooling"]
 agent.mission = "Build in public. Contribute with evidence."
 ```
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/main/assets/agent-mission-control.svg" alt="Plan、Retrieve、Tool、Execute、Evaluate 与 Improve 持续循环的 Agent Mission Control 动画" />
+</div>
 
 ## 🚀 核心项目
 
@@ -72,6 +76,14 @@ AI 策略体检与优化引擎。提供 CLI、Web 工作台、REST API、MCP 工
 - [Emotion-LLaMA PR #141](https://github.com/ZebangCheng/Emotion-LLaMA/pull/141) — 使用请求级临时文件隔离音频提取，并补充并发和清理回归测试。
 - [research-git PR #5](https://github.com/StepzeroLab/research-git/pull/5) — 修复 Windows UTF-8、嵌套符号来源和可能造成数据丢失的数据库迁移问题。
 
+## 🌌 3D 贡献城市
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/profile-3d-contrib-night.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/profile-3d-contrib-season.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/profile-3d-contrib-night.svg" alt="Jiang GitHub 3D Contribution City" />
+</picture>
+
 ## 📊 开发活动
 
 <div align="center">
@@ -91,12 +103,22 @@ AI 策略体检与优化引擎。提供 CLI、Web 工作台、REST API、MCP 工
   <img src="https://streak-stats.demolab.com/?user=jiang4wqy&amp;theme=tokyonight&amp;hide_border=true&amp;locale=zh_Hans" alt="Jiang GitHub Contribution Streak" />
 </div>
 
-## 🎮 贡献轨迹
+## 🎮 贡献游戏厅
+
+### Pac-Man
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/pacman-contribution-graph-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/pacman-contribution-graph.svg" />
   <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/pacman-contribution-graph.svg" alt="Pac-Man 风格的 Jiang GitHub 贡献图" />
+</picture>
+
+### Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/github-contribution-grid-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/github-contribution-grid-snake.svg" alt="Snake 风格的 Jiang GitHub 贡献动画" />
 </picture>
 
 ## 🧪 正在探索
