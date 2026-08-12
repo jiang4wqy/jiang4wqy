@@ -9,7 +9,7 @@ on:
       - main
     paths:
       - README.md
-      - .github/workflows/pacman.yml
+      - .github/workflows/profile-animations.yml
 
 permissions:
   contents: write
@@ -27,11 +27,6 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
 
-      - name: Generate Pac-Man contribution graph
-        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
-        with:
-          github_user_name: ${{ github.repository_owner }}
-
       - name: Generate Snake contribution graphs
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
         with:
@@ -40,18 +35,7 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=#7c3aed&color_dots=#ebedf0,#c4b5fd,#a78bfa,#7c3aed,#4c1d95
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#0f172a,#164e63,#0e7490,#06b6d4,#67e8f9
 
-      - name: Generate 3D contribution graphs
-        uses: yoshi389111/github-profile-3d-contrib@9e3f937195cf840d364388973f73e3c4b3753586
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-
-      - name: Collect selected 3D graphs
-        run: |
-          cp profile-3d-contrib/profile-season-animate.svg dist/profile-3d-contrib-season.svg
-          cp profile-3d-contrib/profile-night-rainbow.svg dist/profile-3d-contrib-night.svg
-
-      - name: Publish all generated profile animations
+      - name: Publish generated profile animations
         uses: peaceiris/actions-gh-pages@329bcc8f12caed2cefe5a5b80781499a6f3b361b
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
