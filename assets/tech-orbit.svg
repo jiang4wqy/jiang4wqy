@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" role="img" aria-labelledby="title desc">
+  <title id="title">Jiang tech stack orbit</title>
+  <desc id="desc">A tech-stack orbit: a pulsing STACK core with Python, TypeScript, FastAPI, Next.js on an inner ring and AI Agents, MCP, Three.js, MediaPipe, DuckDB on an outer ring, with data dots orbiting the rings and flowing spokes.</desc>
+  <defs>
+    <linearGradient id="orbBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b1b" /><stop offset="0.55" stop-color="#0a1226" /><stop offset="1" stop-color="#071d2b" />
+    </linearGradient>
+    <radialGradient id="orbCore" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f0abfc" /><stop offset="0.45" stop-color="#8b5cf6" /><stop offset="1" stop-color="#0e7490" />
+    </radialGradient>
+    <pattern id="orbGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#38bdf8" stroke-opacity="0.06" />
+    </pattern>
+    <filter id="orbGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="816" height="356" rx="16" fill="url(#orbBg)" stroke="#1e2a4a" stroke-width="1.5" />
+  <rect x="2" y="2" width="816" height="356" rx="16" fill="url(#orbGrid)" />
+  <text x="26" y="34" fill="#5f719b" font-size="13" letter-spacing="3" font-family="ui-monospace,monospace">TECH ORBIT</text>
+  <text x="794" y="34" text-anchor="end" fill="#38bdf8" font-size="12" opacity="0.7" font-family="ui-monospace,monospace">// what I build with</text>
+
+  <!-- orbit rings -->
+  <circle cx="410" cy="180" r="100" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-dasharray="2 6" />
+  <circle cx="410" cy="180" r="155" fill="none" stroke="#a855f7" stroke-opacity="0.22" stroke-dasharray="2 7" />
+
+  <!-- flowing spokes core -> inner nodes -->
+  <g stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.4" fill="none" stroke-dasharray="5 9">
+    <line x1="410" y1="180" x2="481" y2="109"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.6s" repeatCount="indefinite"/></line>
+    <line x1="410" y1="180" x2="339" y2="109"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.9s" repeatCount="indefinite"/></line>
+    <line x1="410" y1="180" x2="339" y2="251"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.7s" repeatCount="indefinite"/></line>
+    <line x1="410" y1="180" x2="481" y2="251"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="2.1s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- orbiting data dots (inner ring cw, outer ring ccw) -->
+  <circle r="5" fill="#22d3ee" filter="url(#orbGlow)">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M410,80 a100,100 0 1,1 -0.1,0 z"/>
+  </circle>
+  <circle r="5" fill="#a855f7" filter="url(#orbGlow)">
+    <animateMotion dur="14s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear" path="M410,25 a155,155 0 1,1 -0.1,0 z"/>
+  </circle>
+
+  <!-- core -->
+  <circle cx="410" cy="180" r="34" fill="url(#orbCore)" filter="url(#orbGlow)">
+    <animate attributeName="r" values="32;36;32" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="410" y="184" text-anchor="middle" fill="#f8fafc" font-size="13" font-weight="700" font-family="ui-monospace,monospace">STACK</text>
+
+  <!-- inner ring nodes (upright, static) @ r=100 -->
+  <g font-family="ui-monospace,monospace" font-size="14" font-weight="600">
+    <g><rect x="447" y="96" width="68" height="26" rx="13" fill="#0b1226" stroke="#22d3ee" stroke-opacity="0.55"/><text x="481" y="113" text-anchor="middle" fill="#cfe0ff">Python</text></g>
+    <g><rect x="291" y="96" width="96" height="26" rx="13" fill="#0b1226" stroke="#22d3ee" stroke-opacity="0.55"/><text x="339" y="113" text-anchor="middle" fill="#cfe0ff">TypeScript</text></g>
+    <g><rect x="297" y="238" width="84" height="26" rx="13" fill="#0b1226" stroke="#22d3ee" stroke-opacity="0.55"/><text x="339" y="255" text-anchor="middle" fill="#cfe0ff">FastAPI</text></g>
+    <g><rect x="447" y="238" width="68" height="26" rx="13" fill="#0b1226" stroke="#22d3ee" stroke-opacity="0.55"/><text x="481" y="255" text-anchor="middle" fill="#cfe0ff">Next.js</text></g>
+  </g>
+
+  <!-- outer ring nodes (upright, static) @ r=155 -->
+  <g font-family="ui-monospace,monospace" font-size="14" font-weight="600">
+    <g><rect x="519" y="167" width="92" height="26" rx="13" fill="#0b1226" stroke="#a855f7" stroke-opacity="0.55"/><text x="565" y="184" text-anchor="middle" fill="#e9d5ff">AI Agents</text></g>
+    <g><rect x="434" y="19" width="48" height="26" rx="13" fill="#0b1226" stroke="#a855f7" stroke-opacity="0.55"/><text x="458" y="36" text-anchor="middle" fill="#e9d5ff">MCP</text></g>
+    <g><rect x="247" y="76" width="76" height="26" rx="13" fill="#0b1226" stroke="#a855f7" stroke-opacity="0.55"/><text x="285" y="93" text-anchor="middle" fill="#e9d5ff">Three.js</text></g>
+    <g><rect x="238" y="258" width="94" height="26" rx="13" fill="#0b1226" stroke="#a855f7" stroke-opacity="0.55"/><text x="285" y="275" text-anchor="middle" fill="#e9d5ff">MediaPipe</text></g>
+    <g><rect x="422" y="315" width="72" height="26" rx="13" fill="#0b1226" stroke="#a855f7" stroke-opacity="0.55"/><text x="458" y="332" text-anchor="middle" fill="#e9d5ff">DuckDB</text></g>
+  </g>
+</svg>
