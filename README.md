@@ -30,6 +30,12 @@ agent.mission = "Build in public. Contribute with evidence."
   <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/main/assets/agent-mission-control.svg" alt="Plan、Retrieve、Tool、Execute、Evaluate 与 Improve 持续循环的 Agent Mission Control 动画" />
 </div>
 
+## 🧩 技术栈
+
+<div align="center">
+  <img width="72%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/main/assets/tech-orbit.svg" alt="技术栈轨道：Python / TypeScript / FastAPI / Next.js 内环，AI Agents / MCP / Three.js / MediaPipe / DuckDB 外环，数据点绕核心 STACK 轨道运行" />
+</div>
+
 ## 🚀 核心项目
 
 > 🏆 **[Understand Anything](https://github.com/Egonex-AI/Understand-Anything)** · `Egonex-AI` · **79k★** — 社区贡献者
@@ -41,19 +47,19 @@ agent.mission = "Build in public. Contribute with evidence."
 >
 > `TypeScript` · `Knowledge Graph` · `Cross-language` · `Security`
 
-### [DejaView · 项目照妖镜](https://github.com/jiang4wqy/dejaview) &nbsp;`★ 3`
+### [DejaView · 项目照妖镜](https://github.com/jiang4wqy/dejaview)
 
 证据化项目锐评：网站 + GitHub 双源理解 → 搜索相似 → 六维重复度裁判 → 认真 / 毒舌 / 彩虹三种人格**同源报告**（换脸不换事实，每条结论可展开证据）。
 
 `Python` `FastAPI` `Next.js` `MCP` `Deterministic Pipeline`
 
-### [OceanPilot · EvidenceOS](https://github.com/jiang4wqy/oceanpilot-evidenceos) &nbsp;`★ 2`
+### [OceanPilot · EvidenceOS](https://github.com/jiang4wqy/oceanpilot-evidenceos)
 
 证据驱动的跨境商家成功协作系统，把可核验的证据链贯穿商家运营、协作与决策流程。
 
 `Python` `Evidence-driven` `Collaboration`
 
-### [Strategy Doctor](https://github.com/jiang4wqy/strategy-doctor) &nbsp;`★ 1`
+### [Strategy Doctor](https://github.com/jiang4wqy/strategy-doctor)
 
 AI 策略体检与优化引擎：CLI、Web 工作台、REST API、MCP 工具、TypeScript Client、确定性压力测试与 held-out validation。
 
@@ -65,13 +71,13 @@ AI 策略体检与优化引擎：CLI、Web 工作台、REST API、MCP 工具、T
 
 `TypeScript` `MediaPipe` `Three.js` `WebGL`
 
-### [Ink Slash · 一闪墨斩](https://github.com/jiang4wqy/ink-slash) &nbsp;`★ 1`
+### [Ink Slash · 一闪墨斩](https://github.com/jiang4wqy/ink-slash)
 
 和风水墨隔空切果：MediaPipe 手势追踪 + Canvas 2D 程序化水墨 + WebAudio，指尖即刀，墨迹为痕；本地运行，画面不上传。
 
 `TypeScript` `MediaPipe` `Canvas` `WebAudio`
 
-### [E-commerce User Path & Retention](https://github.com/jiang4wqy/ecommerce-user-path-retention) &nbsp;`★ 1`
+### [E-commerce User Path & Retention](https://github.com/jiang4wqy/ecommerce-user-path-retention)
 
 端到端电商用户行为分析：Python 数据管道 + DuckDB 指标层 + Streamlit 分析工作台 + React 数据故事页。&nbsp;🔗 [Live Demo](https://jiang4wqy.github.io/ecommerce-user-path-retention/)
 
@@ -112,6 +118,12 @@ AI 策略体检与优化引擎：CLI、Web 工作台、REST API、MCP 工具、T
 <div align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jiang4wqy&theme=tokyonight" alt="Jiang GitHub Stats" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jiang4wqy&theme=tokyonight" alt="Jiang Repositories Per Language" />
+</div>
+
+### 💬 每日一言
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="随机开发者名言（每次刷新更换）" />
 </div>
 
 ## 🧪 正在探索
