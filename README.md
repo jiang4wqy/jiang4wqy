@@ -1,14 +1,14 @@
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/main/assets/agent-command-center.svg" alt="Jiang Agent Systems 动态指挥中心" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&amp;size=20&amp;duration=2800&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=AI%20Agent%20%E5%BC%80%E5%8F%91%E8%80%85;%E6%9E%84%E5%BB%BA%E5%8F%AF%E9%9D%A0%E7%9A%84%20Agent%20%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%AF%84%E6%B5%8B%E4%BD%93%E7%B3%BB;%E6%8C%81%E7%BB%AD%E5%8F%82%E4%B8%8E%E5%BC%80%E6%BA%90%E4%B8%8E%20Codex%20%E7%94%9F%E6%80%81%E5%BB%BA%E8%AE%BE" alt="AI Agent 开发者；构建可靠的 Agent 工作流与评测体系；持续参与开源与 Codex 生态建设" />
+  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&size=20&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=760&lines=AI%20Agent%20%E5%BC%80%E5%8F%91%E8%80%85;%E6%9E%84%E5%BB%BA%E5%8F%AF%E9%9D%A0%E7%9A%84%20Agent%20%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%AF%84%E6%B5%8B%E4%BD%93%E7%B3%BB;%E5%90%91%2079k%E2%98%85%E9%A1%B9%E7%9B%AE%E8%B4%A1%E7%8C%AE%EF%BC%8C%E6%8C%81%E7%BB%AD%E5%8F%82%E4%B8%8E%E5%BC%80%E6%BA%90%E4%B8%8E%20Codex%20%E7%94%9F%E6%80%81" alt="AI Agent 开发者；构建可靠的 Agent 工作流与评测体系；向 79k★ 项目贡献，持续参与开源与 Codex 生态" />
 
   <p>
-    <img src="https://img.shields.io/badge/Python-0F172A?style=for-the-badge&amp;logo=python&amp;logoColor=38BDF8" alt="Python" />
-    <img src="https://img.shields.io/badge/TypeScript-0F172A?style=for-the-badge&amp;logo=typescript&amp;logoColor=60A5FA" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/AI_Agents-0F172A?style=for-the-badge&amp;logo=openai&amp;logoColor=A78BFA" alt="AI Agents" />
-    <img src="https://img.shields.io/badge/MCP-0F172A?style=for-the-badge&amp;logo=protocolsdotio&amp;logoColor=22D3EE" alt="Model Context Protocol" />
-    <img src="https://img.shields.io/badge/Open_Source-0F172A?style=for-the-badge&amp;logo=github&amp;logoColor=F8FAFC" alt="Open Source" />
+    <img src="https://img.shields.io/badge/Python-0F172A?style=for-the-badge&logo=python&logoColor=38BDF8" alt="Python" />
+    <img src="https://img.shields.io/badge/TypeScript-0F172A?style=for-the-badge&logo=typescript&logoColor=60A5FA" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/AI_Agents-0F172A?style=for-the-badge&logo=openai&logoColor=A78BFA" alt="AI Agents" />
+    <img src="https://img.shields.io/badge/MCP-0F172A?style=for-the-badge&logo=protocolsdotio&logoColor=22D3EE" alt="Model Context Protocol" />
+    <img src="https://img.shields.io/badge/Open_Source-0F172A?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="Open Source" />
   </p>
 </div>
 
@@ -32,94 +32,87 @@ agent.mission = "Build in public. Contribute with evidence."
 
 ## 🚀 核心项目
 
-### [Strategy Doctor](https://github.com/jiang4wqy/strategy-doctor)
+> 🏆 **[Understand Anything](https://github.com/Egonex-AI/Understand-Anything)** · `Egonex-AI` · **79k★** — 社区贡献者
+>
+> *“Graphs that teach > graphs that impress.”* 把任意代码转成可交互的知识图谱。作为社区贡献者，我合并了 **3 个 PR**：
+> - [#532](https://github.com/Egonex-AI/Understand-Anything/pull/532) 修复 TS / Java / C# 中抽象类、枚举、record、struct 无法入图，并补充跨语言回归测试
+> - [#557](https://github.com/Egonex-AI/Understand-Anything/pull/557) 加固命令片段、危险清理保护、路径处理与不可信内容边界
+> - [#558](https://github.com/Egonex-AI/Understand-Anything/pull/558) 增加过期知识图谱检测，覆盖核心引擎、Dashboard 与图谱消费技能
+>
+> `TypeScript` · `Knowledge Graph` · `Cross-language` · `Security`
 
-AI 策略体检与优化引擎。提供 CLI、Web 工作台、REST API、MCP 工具、TypeScript Client、确定性压力测试与 held-out validation。
+### [DejaView · 项目照妖镜](https://github.com/jiang4wqy/dejaview) &nbsp;`★ 3`
+
+证据化项目锐评：网站 + GitHub 双源理解 → 搜索相似 → 六维重复度裁判 → 认真 / 毒舌 / 彩虹三种人格**同源报告**（换脸不换事实，每条结论可展开证据）。
+
+`Python` `FastAPI` `Next.js` `MCP` `Deterministic Pipeline`
+
+### [OceanPilot · EvidenceOS](https://github.com/jiang4wqy/oceanpilot-evidenceos) &nbsp;`★ 2`
+
+证据驱动的跨境商家成功协作系统，把可核验的证据链贯穿商家运营、协作与决策流程。
+
+`Python` `Evidence-driven` `Collaboration`
+
+### [Strategy Doctor](https://github.com/jiang4wqy/strategy-doctor) &nbsp;`★ 1`
+
+AI 策略体检与优化引擎：CLI、Web 工作台、REST API、MCP 工具、TypeScript Client、确定性压力测试与 held-out validation。
 
 `TypeScript` `REST API` `MCP` `Risk Analysis` `Testing`
 
-### [E-commerce User Path & Retention](https://github.com/jiang4wqy/ecommerce-user-path-retention)
+### [gesture-air-canvas](https://github.com/jiang4wqy/gesture-air-canvas)
 
-端到端电商用户行为分析项目：Python 数据管道、DuckDB 指标层、Streamlit 分析工作台与 React 数据故事页。
+浏览器本地手势空中画布：MediaPipe 手部追踪 + Three.js 3D 粒子全息，捏合绘画、握拳擦除，摄像头画面不上传、不保存。
 
-🔗 [查看 Live Demo](https://jiang4wqy.github.io/ecommerce-user-path-retention/)
+`TypeScript` `MediaPipe` `Three.js` `WebGL`
 
-`Python` `DuckDB` `Streamlit` `React` `Data Analytics`
+### [Ink Slash · 一闪墨斩](https://github.com/jiang4wqy/ink-slash) &nbsp;`★ 1`
 
-### [Peer-NLP Reinforcement Learning Trading](https://github.com/jiang4wqy/fintech-peer-nlp-rl-trading)
-
-结合 peer-trained NLP 信号、DQN、SHAP、多源数据采集与防数据泄漏设计的 A 股交易实验平台，包含 143 个 pytest 测试。
-
-`Python` `NLP` `Reinforcement Learning` `SHAP` `Pytest`
-
-### [Ink Slash](https://github.com/jiang4wqy/ink-slash)
-
-浏览器本地运行的和风水墨手势切果游戏，使用 MediaPipe 手部追踪、Canvas 2D 与 WebAudio；摄像头画面不会上传或保存。
+和风水墨隔空切果：MediaPipe 手势追踪 + Canvas 2D 程序化水墨 + WebAudio，指尖即刀，墨迹为痕；本地运行，画面不上传。
 
 `TypeScript` `MediaPipe` `Canvas` `WebAudio`
 
-## 🤝 已合并的开源贡献
+### [E-commerce User Path & Retention](https://github.com/jiang4wqy/ecommerce-user-path-retention) &nbsp;`★ 1`
 
-### [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) · 3 merged PRs
+端到端电商用户行为分析：Python 数据管道 + DuckDB 指标层 + Streamlit 分析工作台 + React 数据故事页。&nbsp;🔗 [Live Demo](https://jiang4wqy.github.io/ecommerce-user-path-retention/)
 
-- [PR #532](https://github.com/Egonex-AI/Understand-Anything/pull/532) — 修复 TypeScript、Java、C# 中抽象类、枚举、record 和 struct 无法进入知识图谱的问题，并补充跨语言回归测试。
-- [PR #557](https://github.com/Egonex-AI/Understand-Anything/pull/557) — 加固命令片段、危险清理保护、路径处理及不可信内容边界。
-- [PR #558](https://github.com/Egonex-AI/Understand-Anything/pull/558) — 增加过期知识图谱检测，覆盖核心引擎、Dashboard 与图谱消费技能。
+`Python` `DuckDB` `Streamlit` `React` `Data Analytics`
+
+**更多：** [glossa](https://github.com/jiang4wqy/glossa)（Claude Code 插件）· [pdf-lecture-to-notes](https://github.com/jiang4wqy/pdf-lecture-to-notes) · [temple-run](https://github.com/jiang4wqy/temple-run)（Three.js 无尽跑酷）· [fintech-peer-nlp-rl-trading](https://github.com/jiang4wqy/fintech-peer-nlp-rl-trading) · [weflow-chat](https://github.com/jiang4wqy/weflow-chat)
+
+## 🤝 更多已合并的开源贡献
 
 ### [DeepPaperNote](https://github.com/917Dhj/DeepPaperNote) · 2 merged PRs
 
 - [PR #8](https://github.com/917Dhj/DeepPaperNote/pull/8) — 新增可复用的论文术语库配套 Skill。
 - [PR #11](https://github.com/917Dhj/DeepPaperNote/pull/11) — 改进术语选择、Obsidian 工作流、来源校验、笔记复用与安全链接流程。
 
-### 其他已合并贡献
+### 其他
 
 - [Emotion-LLaMA PR #141](https://github.com/ZebangCheng/Emotion-LLaMA/pull/141) — 使用请求级临时文件隔离音频提取，并补充并发和清理回归测试。
 - [research-git PR #5](https://github.com/StepzeroLab/research-git/pull/5) — 修复 Windows UTF-8、嵌套符号来源和可能造成数据丢失的数据库迁移问题。
 
-## 🌌 3D 贡献城市
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/profile-3d-contrib-night.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/profile-3d-contrib-season.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/profile-3d-contrib-night.svg" alt="Jiang GitHub 3D Contribution City" />
-</picture>
-
-## 📊 开发活动
+## ✨ 动态效果
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jiang4wqy&amp;custom_title=Jiang%20GitHub%20Activity%20Graph&amp;hide_border=true&amp;border_radius=15&amp;bg_color=0F172A&amp;color=93C5FD&amp;line=A855F7&amp;point=F97316&amp;area=true&amp;title_color=93C5FD" alt="Jiang GitHub Activity Graph" />
+  <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/main/assets/agent-boot-terminal.svg" alt="Agent 启动终端动画：加载运行时、挂载 MCP、检索证据、评估可靠性，输出 build-in-public 座右铭" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jiang4wqy&amp;theme=tokyonight" alt="Jiang GitHub Stats" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jiang4wqy&amp;theme=tokyonight" alt="Jiang Repositories Per Language" />
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=jiang4wqy&theme=algolia&no-frame=true&no-bg=true&column=-1&margin-w=8&margin-h=8" alt="Jiang GitHub 成就墙（Stars / Commits / PRs / Reviews / Followers 等里程碑）" />
 </div>
 
-<div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jiang4wqy&amp;theme=tokyonight" alt="Jiang GitHub Profile Details" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=jiang4wqy&amp;theme=tokyonight&amp;hide_border=true&amp;locale=zh_Hans" alt="Jiang GitHub Contribution Streak" />
-</div>
-
-## 🎮 贡献游戏厅
-
-### Pac-Man
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/pacman-contribution-graph.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/pacman-contribution-graph.svg" alt="Pac-Man 风格的 Jiang GitHub 贡献图" />
-</picture>
-
-### Snake
+### 🐍 贡献热力（Snake）
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/github-contribution-grid-snake.svg" />
   <img width="100%" src="https://raw.githubusercontent.com/jiang4wqy/jiang4wqy/output/github-contribution-grid-snake.svg" alt="Snake 风格的 Jiang GitHub 贡献动画" />
 </picture>
+
+<div align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jiang4wqy&theme=tokyonight" alt="Jiang GitHub Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jiang4wqy&theme=tokyonight" alt="Jiang Repositories Per Language" />
+</div>
 
 ## 🧪 正在探索
 
@@ -129,5 +122,5 @@ AI 策略体检与优化引擎。提供 CLI、Web 工作台、REST API、MCP 工
 - 跨平台可靠性、安全边界与可复现工程
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:06B6D4,50:7C3AED,100:6A11CB&amp;height=120&amp;section=footer" alt="蓝紫色渐变波浪页脚" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:7C3AED,100:6A11CB&height=120&section=footer" alt="蓝紫色渐变波浪页脚" />
 </div>
